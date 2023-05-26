@@ -12,8 +12,6 @@ enum Link {
     More(Box<Node>),
 }
 
-
-
 impl List {
     pub fn new() -> Self {
         List { head: Link::Empty }
@@ -37,7 +35,6 @@ impl List {
             }
         }
     }
-
 }
 
 impl Drop for List {
